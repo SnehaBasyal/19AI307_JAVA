@@ -1,4 +1,5 @@
 # Ex.No:3(A)  STRING AND ITS OPERATIONS IN JAVA
+
 ## AIM:
 To create a java program to read input and print length of the string in java.
 
@@ -12,27 +13,32 @@ To create a java program to read input and print length of the string in java.
 5.	End
 
 
-
-
 ## PROGRAM:
- ```
-/*
 Program to implement a String and its Operations using Java
-Developed by: 
-RegisterNumber:  
-*/
-```
+
+Developed by: Sneha Basyal M
+
+RegisterNumber: 212222240101
 
 ## Sourcecode.java:
 
-
-
-
-
-
+```
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+        int size = str.length();
+        System.out.println("The size of the String is "+size);
+    }
+}
+```
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/440c4fbd-ccf9-46e1-8555-f123dab615c0)
 
 
 ## RESULT:

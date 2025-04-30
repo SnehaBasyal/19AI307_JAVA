@@ -1,4 +1,4 @@
-# Ex.No:3(B) STRING BUFFER IN JAVA
+## Ex.No:3(B) STRING BUFFER IN JAVA
 
 ## AIM:
 To develop a java program use append() method concatenates the given argument with this String and use stringbuffer class.
@@ -16,28 +16,35 @@ To develop a java program use append() method concatenates the given argument wi
 
 
 
-
-
-
-
 ## PROGRAM:
- ```
-/*
+
 Program to implement a String Buffer using Java
-Developed by: 
-RegisterNumber:  
-*/
-```
+
+Developed by: Sneha Basyal M 
+
+RegisterNumber: 212222240101  
+
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+        String str2 = sc.nextLine();
+        StringBuffer sbf = new StringBuffer(str);
+        sbf.append(" "+str2);
+        System.out.print(sbf);
+        
+    }
+}
+```
 
 ## OUTPUT:
+
 
 
 

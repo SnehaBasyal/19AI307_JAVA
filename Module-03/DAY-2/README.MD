@@ -44,7 +44,7 @@ public class Main
 ```
 
 ## OUTPUT:
-![image](Screenshot 2025-04-30 152045.png)
+![image](Module-03/DAY-2/Screenshot 2025-04-30 152045.png)
 
 
 

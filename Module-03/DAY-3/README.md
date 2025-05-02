@@ -15,28 +15,31 @@ To Create a java program use replace() method replaces the given String from the
 7.	End
 
 
-
-
-
-
 ## PROGRAM:
- ```
-/*
 Program to implement a String Builder using Java
-Developed by: 
-RegisterNumber:  
-*/
-```
+
+Developed by: Sneha Basyal M
+
+RegisterNumber: 212222240101 
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```
+import java.util.*;
+public class StringBuilderExample3
+{
+   public static void main(String args[])
+   {
+       Scanner sc=new Scanner(System.in);
+       String str1=sc.nextLine();
+       StringBuilder sb=new StringBuilder(str1);  
+       sb.replace(1,3,"Java");  
+       System.out.println(sb); 
+   }
+}
+```
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/f95137dd-621a-4ff0-877b-83709d48de0c)
 
 
 

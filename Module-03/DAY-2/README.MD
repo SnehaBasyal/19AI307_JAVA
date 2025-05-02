@@ -44,17 +44,7 @@ public class Main
 ```
 
 ## OUTPUT:
-
-Input	        Expected	         Got	
-
-Hello
-                Hello Java           Hello Java
-Java
-
-Hi 
-                Hi welcome           Hi welcome
-welcome
-
+![image](https://github.com/SnehaBasyal/19AI307_JAVA/blob/e231c6e3a2d525bfc5073a12223f19de82f32b04/Module-03/DAY-2/Screenshot%202025-04-30%20152045.png)
 
 ## RESULT:
 Thus the java program use append() method concatenates the given argument with this String and use stringbuffer class was executed successfully.

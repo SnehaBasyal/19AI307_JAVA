@@ -47,10 +47,12 @@ public class Main
 
 Input	        Expected	         Got	
 
-Hello           Hello Java           Hello Java
+Hello
+                Hello Java           Hello Java
 Java
 
-Hi              Hi welcome           Hi welcome
+Hi 
+                Hi welcome           Hi welcome
 welcome
 
 

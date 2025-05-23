@@ -56,8 +56,7 @@ public class Mapp{
 
 
 ## OUTPUT:
-
-
+![image](https://github.com/SnehaBasyal/19AI307_JAVA/blob/4e3d1df0093fdbbf9a73b4fa20fa1ba52ecd0a08/Module-11/DAY-2/Screenshot%202025-05-23%20230210.png)
 
 ## RESULT:
 Thus the java program to retrieve the key and value from hashtable for all input value was executed successfully.

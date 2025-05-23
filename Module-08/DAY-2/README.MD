@@ -40,11 +40,11 @@ reader.close();
 ```
 
 ## OUTPUT:
-![image](
+![image](https://github.com/SnehaBasyal/19AI307_JAVA/blob/b696a0be389efbe73652b3b617cf1f43ea336517/Module-08/DAY-2/Screenshot%202025-05-23%20203352.png)
 
 
 ## RESULT:
-Thus, the java program to append a NUMBER in a file “testout.txt” using Writer.was executed and verified successfully
+Thus, the java program to read the content from the file "test.txt" using Reader was executed and verified successfully
 
 
 

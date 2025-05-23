@@ -1,46 +1,77 @@
-# Ex.No:6(E)  MULTIPLE INHERITANCE
+# Ex.No:6(E)  HIERARCHICAL INHERITANCE
 
 ## AIM:
-To write a Java program using multiple inheritance through interfaces to read student details and marks, calculate the average, and display the mark sheet.
+To write a Java program using Hierarchical inheritance.
 
 ## ALGORITHM :
 
-1.	Start the program.
-2.	Create interface Student:
-a.	Declare methods to read name and rollno.
-3.	Create interface Studentdet:
-a.	Declare a method to read marks of 6 subjects and calculate the average.
-b.	Create a class Studentdetails that implements both interfaces:
-c.	Define variables for name, roll number, marks array, and average.
-4.	Implement all methods from the interfaces.
-a.	Create a display() method to show student details and average.
-5.	In main() method:
-a.	Create an object of Studentdetails.
-b.	Call the methods to get input and display results.
-6.	End the program.
-
+1. Start
+2. Define class `Shape` with method `display()` that prints `"Shape Class"`
+3. Define class `Rectangle` that extends `Shape`, with method `show()` printing `"Rectangle Class"`
+4. Define class `Triangle` that extends `Shape`, with method `show()` printing `"Triangle Class"`
+5. Define class `Circle` that extends `Shape`, with method `show()` printing `"Circle Class"`
+6. In `main`, create objects of `Rectangle`, `Triangle`, and `Circle`
+7. Call `display()` and `show()` for each object
+8. End
 
 ## PROGRAM:
- ```
-/*
-Program to implement a Multiple Inheritance
-Developed by: 
-RegisterNumber:  
-*/
-```
+
+Program to implement a Hierarchical Inheritance
+
+Developed by: Sneha Basyal M
+
+RegisterNumber: 212222240101
 
 ## Sourcecode.java:
 
+```
+class Shape {
+    void display() {
+        System.out.println("Shape Class");
+    }
+}
 
+class Rectangle extends Shape {
+    void show() {
+        System.out.println("Rectangle Class");
+    }
+}
 
+class Triangle extends Shape {
+    void show() {
+        System.out.println("Triangle Class");
+    }
+}
 
+class Circle extends Shape {
+    void show() {
+        System.out.println("Circle Class");
+    }
+}
 
+public class Main {
+    public static void main(String[] args) {
+        Rectangle rectangle = new Rectangle();
+        Triangle triangle = new Triangle();
+        Circle circle = new Circle();
 
+        rectangle.display();
+        rectangle.show();
+
+        triangle.display();
+        triangle.show();
+
+        circle.display();
+        circle.show();
+    }
+}
+
+```
 
 ## OUTPUT:
-
+![image](https://github.com/user-attachments/assets/18f0c4ac-f402-4a0a-97e7-5f5e7cf7a973)
 
 
 ## RESULT:
 
-Thus, the java program demonstrates multiple inheritance using interfaces and successfully displays the mark sheet of a student by collecting personal and academic data. 
+Thus, the java program demonstrates heirarchical inheritance was successfully executed.

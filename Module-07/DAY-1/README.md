@@ -1,46 +1,47 @@
 # Ex.No:7(A)           EXCEPTION HANDLING-RUN TIME EXCEPTION
 ## AIM:
-  To Develop a Java Program for handling Arithmetic Exception (division by zero exception) using Exception Handling Mechanism.
+  To Develop a Java Program for NullPointerException.
 
 ## ALGORITHM :
-1.  Start the Program
-2.	Import `java.util.*` for input handling
-3.	Define class `Example1`:
--	a) In `main` method, create `Scanner` object `sc` for input
-4.	Use `try` block to:
--	a) Read integers `a` and `b` from user input
--	b) Calculate `res = a / b` and print "Result: " followed by `res`
-5.	Use `catch` block to handle `ArithmeticException`:
--	a) If division by zero occurs, print "You Shouldn't divide a number by zero"
-6.	End
-
-
-
-
-
-
+1. Start
+2. Declare a `String` variable `str` and assign `null`
+3. Use `try` block to call `str.length()`
+4. This throws a `NullPointerException`
+5. Catch the exception in `catch(NullPointerException e)`
+6. Print `"NullPointerException.."`
+7. End
 
 ## PROGRAM:
- ```
-/*
-Program to implement a Exception Handling-Run Time Exception using Java
-Developed by: 
-RegisterNumber:  
-*/
-```
+
+Program to implement Java Program for NullPointerException.
+
+Developed by: Sneha Basyal M
+
+RegisterNumber: 212222240101 
+
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```
+public class Exception2 
+{
+   public static void main(String args[])
+   {
+	try{
+		String str=null;
+		System.out.println (str.length());
+	}
+        catch(NullPointerException e){
+		System.out.println("NullPointerException..");
+	}
+   }
+}
+```
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/0e518724-24c8-4506-851f-067746a9232b)
 
 
 
 ## RESULT:
-Thus the Java Program for handling Arithmetic Exception (division by zero exception) using Exception Handling Mechanism was executed successfully.
+Thus the Java Program for NullPointerException was executed successfully.
 

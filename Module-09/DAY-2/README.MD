@@ -51,7 +51,7 @@ public class Main {
 ```
 
 ## OUTPUT:
-!{image](https://github.com/SnehaBasyal/19AI307_JAVA/blob/77b5055e522264f47c2f52bca8a377e66c4d4b52/Module-09/DAY-2/Screenshot%202025-05-23%20210701.png)
+![image](https://github.com/SnehaBasyal/19AI307_JAVA/blob/77b5055e522264f47c2f52bca8a377e66c4d4b52/Module-09/DAY-2/Screenshot%202025-05-23%20210701.png)
 
 
 ## RESULT:

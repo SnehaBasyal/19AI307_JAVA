@@ -60,7 +60,7 @@ public class HelloWorld {
 ```
 
 ## OUTPUT:
-
+![image](https://github.com/SnehaBasyal/19AI307_JAVA/blob/db4311edea738a856d32a1e67d49be5873d56631/Module-07/DAY-2/Screenshot%202025-05-23%20200247.png)
 
 
 ## RESULT:

@@ -63,7 +63,7 @@ public class Main
 ```
 
 ## OUTPUT:
-
+![image](https://github.com/SnehaBasyal/19AI307_JAVA/blob/b0125ab024b004b28b3cb5efb39113bda0974fed/Module-05/DAY-2/Screenshot%202025-05-23%20155311.png)
 
 
 ## RESULT:

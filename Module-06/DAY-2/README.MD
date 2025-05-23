@@ -69,8 +69,7 @@ public class Main
 ```
 
 ## OUTPUT:
-
-
+![image](https://github.com/SnehaBasyal/19AI307_JAVA/blob/8f886b14b2ceedec9c3a563747b53de574a7055e/Module-06/DAY-2/Screenshot%202025-05-23%20161159.png)
 
 ## RESULT:
 Thus the java program for multi-level inheritance was executed successfully.

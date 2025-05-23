@@ -1,47 +1,71 @@
 # Ex.No:5(A)  DATA HIDING AND ENCAPSULATION
 ## AIM:
-To Create a java program to display name and location of the employee and use the encapsulation concepts
+To Write a java program to display name and location of the employee and use the encapsulation concepts.
 
 ## ALGORITHM :
-1.  Start the program
-2.	Define class `Employee`:
--	a) Declare two private `String` variables: `name1` and `name2`
--	b) Define `setname(String n1)` method to set `name1` to `n1`
--	c) Define `setname2(String n2)` method to set `name2` to `n2`
--	d) Define `get1()` method to return `name1`
--	e) Define `get2()` method to return `name2`
-3.	Define `Main` class with `main` method:
--	a) Create `Scanner` object `sc` for input
--	b) Read `name1` and `name2` from user input
--	c) Create ` Employee ` object `hl`
--	d) Use `hl.setname(name1)` and `hl.setname2(name2)` to set the names
--	e) Print the values of `hl.get1()` and `hl.get2()`
-4.	End
+1. Start
 
+2. Import Scanner
 
+3. Define class display with private variables name and location
 
+4. Define set() to assign values
 
+5. Define get() to print values
+
+6. In main, create Scanner and display objects
+
+7. Read two strings and pass to set()
+
+8. Call get()
+
+9. End
 
 ## PROGRAM:
- ```
-/*
+
 Program to implement a Data Hiding & Encapsulation using Java
-Developed by: 
-RegisterNumber:  
-*/
-```
+
+Developed by: Sneha Basyal M
+
+RegisterNumber: 212222240101 
+
 
 ## Sourcecode.java:
-
-
-
-
-
-
-
+```
+import java.util.*;
+class display
+{
+    private String name;
+    private String location;
+    
+    public void set(String n, String l)
+    {
+        name = n;
+        location = l;
+        
+    }
+    public void get()
+    {
+        System.out.println(name);
+        System.out.println(location);
+    }
+}
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        display obj = new display();
+        obj.set(sc.next(),sc.next());
+        obj.get();
+        
+    }
+}
+```
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/b7872ec7-4537-484a-9ac2-b9da658894ce)
 
 
 ## RESULT:
-Thus , the  java program to display name and location of the employee and use the encapsulation concepts executed successfully.
+Thus , the  java program to display name and location of the employee using encapsulation concepts is executed successfully.

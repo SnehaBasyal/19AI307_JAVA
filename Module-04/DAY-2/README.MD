@@ -29,7 +29,7 @@ Write a Java program forthe situation: Student object contains member 'Stu_Id'. 
 12. End the program
 
 ## PROGRAM:
- ```
+
 Program to implement a Inheritance using Java
 
 Developed by: Sneha Basyal M
@@ -74,7 +74,7 @@ public class Main
 ```
 
 ## OUTPUT:
-
+![image](https://github.com/SnehaBasyal/19AI307_JAVA/blob/61bf9717b22f6803435076339df926dfe5028f13/Module-04/DAY-2/Screenshot%202025-05-23%20151456.png)
 
 
 ## RESULT:

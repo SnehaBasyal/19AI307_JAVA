@@ -1,4 +1,4 @@
-# Ex.No:5(C) IS-A RELATIONSHIP AND HAS-A RELATIONSHIP
+# Ex.No:5(D) IS-A RELATIONSHIP AND HAS-A RELATIONSHIP
 ## AIM:
    To Create a java program to create a three class and apply is-a relationship concepts and display the output refer sample test.
  

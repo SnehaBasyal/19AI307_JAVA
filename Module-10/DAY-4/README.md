@@ -57,7 +57,7 @@ hs.add(sc.next());
 
 
 ## RESULT:
-Thus the java program of hashmap concepts was executed and verified successfully.
+Thus the java program of hashset concepts was executed and verified successfully.
 
 
 

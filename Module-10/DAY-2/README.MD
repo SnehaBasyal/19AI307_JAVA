@@ -53,7 +53,7 @@ public class Main {
 
 
 ## OUTPUT:
-
+![image](https://github.com/SnehaBasyal/19AI307_JAVA/blob/ecb88545f52401e71e4254ce0119fb105ecbe771/Module-10/DAY-2/Screenshot%202025-05-23%20223125.png)
 
 
 ## RESULT:

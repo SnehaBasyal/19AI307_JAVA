@@ -12,23 +12,33 @@ To implement a Java Program to write a String in a file "testout.txt" using File
 
 
 ## PROGRAM:
- ```
-/*
+
 Program to implement a IO File Stream using Java
-Developed by: 
-RegisterNumber:  
-*/
-```
+
+Developed by: Sneha Basyal M
+
+RegisterNumber: 212222240101  
+
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```
+ 
+try
+{
+     FileOutputStream f = new FileOutputStream("testout.txt",true);
+     String str = "Welcome to Saveetha";
+     f.write(str.getBytes());
+     f.close();
+     System.out.println("Successfully Completed");
+                
+  
+}
+catch(Exception e){System.out.println(e);}
+```
+              
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/58cd0710-624c-4b52-b1fb-ef81b2f9659d)
 
 
 

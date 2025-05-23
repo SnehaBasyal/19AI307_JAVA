@@ -56,7 +56,7 @@ System.out.println("Does HashMap contains 104 as key: " + map.containsKey(104));
 
 
 ## OUTPUT:
-
+![image](https://github.com/user-attachments/assets/585c3d24-9496-4488-9bba-346205365a7a)
 
 
 ## RESULT:

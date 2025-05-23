@@ -18,28 +18,37 @@
 5.	End
 
 
-
-
-
 ## PROGRAM:
- ```
-/*
+
 Program to implement a Thread concepts using Java
-Developed by: 
-RegisterNumber:  
-*/
-```
+
+Developed by: Sneha Basyal M 
+
+RegisterNumber: 212222240101  
+
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```
+import java.util.*;
+    public class Multi implements Runnable
+    {  
+        Scanner sc=new Scanner(System.in);
+        
+    public void run()
+    {  
+        String name=sc.nextLine();
+        System.out.println("Thread Name:" +name);  
+    }  
+    public static void main(String args[]){  
+    Multi m1=new Multi();  
+    Thread t1 =new Thread(m1); 
+    t1.start();  
+     }  
+    }  
+```
 
 ## OUTPUT:
-
+![image](https://github.com/user-attachments/assets/66a556e4-cb8e-4908-8cc7-bf8d44777eef)
 
 
 ## RESULT:

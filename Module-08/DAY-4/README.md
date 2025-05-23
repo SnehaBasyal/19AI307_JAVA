@@ -1,42 +1,52 @@
 # Ex.No:8(D) BUFFER INPUT/OUTPUT STREAM
 
 ## AIM:
- To create a java program file for displaying the data from the file after skip method using FileInputStream & BufferedInputStream.
+ To create a java program for writing the Specified length of data in the file Using FileOutputStream & BufferedOutputStream
 
 ## ALGORITHM :
-1.	Import java.io.* and java.util.* for file handling and user input.
-2.	Create a file named sample.txt and write "This is a line of text inside the file." using FileWriter.
-3.	Close the FileWriter to save the content to sample.txt.
-4.	Open sample.txt with a FileInputStream wrapped in a BufferedInputStream for efficient reading.
-5.	Prompt the user to enter the number of bytes to skip using Scanner.
-6.	Skip the specified number of bytes in the file and print the remaining content.
-7.	Close the BufferedInputStream and FileInputStream to release system resources.
 
-
-
+1. Start
+2. Create `FileOutputStream` for `"sample.txt"`
+3. Wrap it in `BufferedOutputStream`
+4. Read a line of input from user
+5. Convert input string to byte array
+6. Print original input
+7. Write 10 bytes starting from index 5 using `bout.write(b, 5, 10)`
+8. Print message for skipped output
+9. Close `BufferedOutputStream` and `FileOutputStream`
+10. End
 
 ## PROGRAM:
- ```
-/*
+
 Program to implement a Buffer Input/Output Stream using Java
-Developed by: 
-RegisterNumber:  
-*/
-```
+
+Developed by: Sneha Basyal M
+
+RegisterNumber: 212222240101
+
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```
+       
+    FileOutputStream fout=new FileOutputStream("sample.txt");    
+     BufferedOutputStream bout=new BufferedOutputStream(fout);  
+     Scanner sc=new Scanner(System.in);
+     String s=sc.nextLine();    
+     byte b[]=s.getBytes();    
+     System.out.println("Original Data:" +s);
+     System.out.print("After Skipping:");
+     bout.write(b,5,10);    
+     bout.close();    
+     fout.close();    
+       
+```
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/b7839c00-c7f1-4bed-ba47-b50aa8958b33)
 
 
 
 ## RESULT:
-Thus, the java program file for displaying the data from the file after skip method using FileInputStream & BufferedInputStream was executed and done successfully.
+Thus, the java program for writing the Specified length of data in the file Using FileOutputStream & BufferedOutputStream was executed and done successfully.
 
 

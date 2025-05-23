@@ -48,6 +48,7 @@ public class Main {
 ```
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/067e95ef-5add-4cfc-8c97-6a2c521eea53)
 
 
 

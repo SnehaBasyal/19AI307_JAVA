@@ -1,41 +1,53 @@
 # Ex.No:10(A)         JAVA COLLECTION FRAMEWORK –ARRAY LIST
 ## AIM:
- To Create a Java Program to store n numbers (add elements of type Integer) and then display the n numbers using array List.
+ To Create a Java Program to Create an arraylist , add elements in an arraylist and then display in descending order.
 
 ## ALGORITHM:
-1.	Start the Program
-2.	Import `java.util.*` for input handling and list functionality
-3.	Define class `Snowdrop` with the `main` method:
--	a) Create `Scanner` object `sc` for input
--	b) Read an integer `n` to specify the number of elements
--	c) Create an `ArrayList` named `num` to store integers
-4.	Use a `for` loop to:
--	a) Read `n` integers from input and add each to `num`
-5.	Use an enhanced `for` loop to:
--	a) Iterate through `num` and print each element
-6.	End
+
+1. Start
+2. Read the number of strings `n` from user
+3. Create an `ArrayList` to store strings
+4. Loop from 1 to `n`:
+    Read each string and add to the list
+5. Sort the list in reverse (descending) order using `Collections.sort()` with `reverseOrder()`
+6. Print the sorted list
+7. End
 
 ## PROGRAM:
- ```
-/*
+
 Program to implement a ARRAY LIST using Java
-Developed by: 
-RegisterNumber:  
-*/
-```
+
+Developed by: Sneha Basyal M
+
+RegisterNumber: 212222240101
+
 
 ## Sourcecode.java:
-
-
-
-
-
+```
+import java.util.*;
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        ArrayList<String> elements = new ArrayList<>();
+        for(int i=1;i<=n;i++)
+        {
+            elements.add(sc.next());
+        }
+        Collections.sort(elements, Collections.reverseOrder());
+        System.out.print(elements);
+    }
+}
+```
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/5ea7d166-321f-4137-a5bf-83bcc510f64f)
 
 
 
 ## RESULT:
-TThus the Java Program to store n numbers (add elements of type Integer) and then display the n numbers using array List was executed successfully.
+TThus the Java Program to Create an arraylist , add elements in an arraylist and then display in descending order was executed successfully.
 

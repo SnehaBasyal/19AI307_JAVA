@@ -15,25 +15,44 @@
 6.	End
 
 
-
 ## PROGRAM:
- ```
-/*
+
 Program to implement a JAVA HASHSET & LINKEDHASHSET using Java
-Developed by: 
-RegisterNumber:  
-*/
-```
+
+Developed by: Sneha Basyal M
+
+RegisterNumber: 212222240101 
+
 
 ## Sourcecode.java:
+```
+import java.util.*;
 
+public class HashSetDemo{
 
+public static void main(String args[]){
 
+HashSet <String> hs = new HashSet <String>();
+Scanner sc=new Scanner(System.in);
+int n=sc.nextInt();
+for(int i=0;i<n;i++)
+{
+    
+hs.add(sc.next());
 
+}
+ Iterator<String> i=hs.iterator();  
+ while(i.hasNext())  
+ {  
+    System.out.println(i.next());  
+ }  
 
-
+}
+}
+```
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/d6ac8f39-578a-4854-a10d-66228706aa1f)
 
 
 

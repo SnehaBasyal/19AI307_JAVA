@@ -11,27 +11,47 @@ To create a java program to write data using ByteArrayOutputStream.
 5.	Any exceptions are caught and handled, displaying stack trace information if an error occurs.
 
 
-
-
 ## PROGRAM:
- ```
-/*
+
 Program to implement a BYTE ARRAY I/O using Java
-Developed by: 
-RegisterNumber:  
-*/
-```
+
+Developed by: Sneha Basyal M
+
+RegisterNumber: 212222240101
+
 
 ## Sourcecode.java:
+```
+import java.io.*;
+public class Main {
+    public static void main(String[] args) {
 
+    String data = "This is a line of text inside the string.";
 
+    try {
+    
+      ByteArrayOutputStream out = new ByteArrayOutputStream();
+      byte[] array = data.getBytes();
 
+  
+      out.write(array);
 
+   
+      String streamData = out.toString();
+      System.out.println("Output stream: " + streamData);
 
+      out.close();
+    }
 
+    catch(Exception e) {
+      e.getStackTrace();
+    }
+  }
+}
+```
 
 ## OUTPUT:
-
+!{image](https://github.com/SnehaBasyal/19AI307_JAVA/blob/77b5055e522264f47c2f52bca8a377e66c4d4b52/Module-09/DAY-2/Screenshot%202025-05-23%20210701.png)
 
 
 ## RESULT:

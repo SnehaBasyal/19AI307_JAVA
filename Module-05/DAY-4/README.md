@@ -1,40 +1,71 @@
-# Ex.No:5(D) IS-A RELATIONSHIP AND HAS-A RELATIONSHIP
+# Ex.No:5(C) IS-A RELATIONSHIP AND HAS-A RELATIONSHIP
 ## AIM:
-   To Create a java program to find factorial of number using class and object concepts and apply the has-a relationship.
+   To Create a java program to create a three class and apply is-a relationship concepts and display the output refer sample test.
  
 ## ALGORITHM :
-1.	Start the Program
-2.	Define class `A`:
--	a) Declare integer `n` and initialize `fact` to 1
--	b) Define method `factorial(int n)`:
--	i) Set `this.n = n`
--	ii) Use a loop from 1 to `n` to calculate `fact = fact * i`
--	iii) Print "Factorial is:" followed by `fact`
-3.	In `main` class `main` method:
--	a) Use `Scanner` to read integer `n`
--	b) Create an `A` object and call `factorial(n)`
-4.	End
+
+1. Start
+
+2. Define class `Animal` with variable `name` and method `eat()` to print "I can eat"
+
+3. Define class `Dog` that extends `Animal` and has method `display()` to print the dog’s name
+
+4. In `main`, create `Dog` object `labrador`
+
+5. Assign `"Rohu"` to `labrador.name`
+
+6. Call `labrador.display()` to print the name
+
+7. Call `labrador.eat()` to print eating message
+
+8. End
 
 ## PROGRAM:
- ```
-/*
+
 Program to implement a IS-A RELATIONSHIP AND HAS-A RELATIONSHIP using Java
-Developed by: 
-RegisterNumber:  
-*/
-```
+
+Developed by: Sneha Basyal M
+
+RegisterNumber: 212222240101 
+
 
 ## Sourcecode.java:
+```
+class Animal {
+ 
+  String name;
+  public void eat() {
+    System.out.println("I can eat");
+  }
+}
 
 
+class Dog extends Animal {
 
+  public void display() {
+    System.out.println("My name is "+name);
+  }
+}
 
+public class Main {
+  public static void main(String[] args) {
 
+    Dog labrador = new Dog();
 
+   
+    labrador.name = "Rohu";
+    labrador.display();
+
+   
+    labrador.eat();
+
+  }
+}
+```
 
 ## OUTPUT:
-
+![image](https://github.com/user-attachments/assets/5550fe24-fc82-4700-893a-4de7a1f0b183)
 
 
 ## RESULT:
-Thus the java program to find factorial of number using class and object concepts and apply the has-a relationship was executed successfully.
+Thus the java program to create a three class and apply is-a relationship concepts was executed successfully.

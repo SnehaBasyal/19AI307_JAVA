@@ -78,7 +78,7 @@ import java.util.*;
 
 
 ## OUTPUT:
-
+![image](https://github.com/SnehaBasyal/19AI307_JAVA/blob/319c3e19d0e6311a2bcd9fc7a4c64a2dad7013db/Module-12/DAY-2/Screenshot%202025-05-24%20095707.png)
 
 
 ## RESULT:
